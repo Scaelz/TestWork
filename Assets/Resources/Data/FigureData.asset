@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d1e53020f3284c47836b54844d12526, type: 3}
+  m_Name: FigureData
+  m_EditorClassIdentifier: 
+  Pale: {r: 0.9339623, g: 0.8758099, b: 0.8758099, a: 1}
+  Dark: {r: 0.103773594, g: 0.09241724, b: 0.09241724, a: 1}
+  FigurePlaces:
+  - FigurePrefab: {fileID: 1283446407012181101, guid: 8af24be3cc109e043b0fb21c99bdcd55, type: 3}
+    Owner: 0
+    CellCoordinates:
+    - {x: 5, y: 0}
+    - {x: 6, y: 0}
+    - {x: 7, y: 0}
+    - {x: 5, y: 1}
+    - {x: 6, y: 1}
+    - {x: 7, y: 1}
+    - {x: 5, y: 2}
+    - {x: 6, y: 2}
+    - {x: 7, y: 2}
+  - FigurePrefab: {fileID: 1283446407012181101, guid: 8af24be3cc109e043b0fb21c99bdcd55, type: 3}
+    Owner: 1
+    CellCoordinates:
+    - {x: 0, y: 5}
+    - {x: 0, y: 6}
+    - {x: 0, y: 7}
+    - {x: 1, y: 5}
+    - {x: 1, y: 6}
+    - {x: 1, y: 7}
+    - {x: 2, y: 5}
+    - {x: 2, y: 6}
+    - {x: 2, y: 7}
